@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#606060</color>
+    <color name="colorPrimaryDark">#505050</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="btn_background_numbers">#C0C0C0</color>
+    <color name="btn_background_numbers_pressed">#E0E0E0</color>
+    <color name="btn_background_numbers_highlight">#D0D0D0</color>
+
+    <color name="btn_background_functions">#A0A0A0</color>
+    <color name="btn_background_functions_pressed">#C0C0C0</color>
+    <color name="btn_background_functions_highlight">#B0B0B0</color>
+
+    <color name="btn_background_top_functions">#606060</color>
+    <color name="btn_background_top_functions_pressed">#808080</color>
+    <color name="btn_background_top_functions_highlight">#707070</color>
+
+    <color name="btn_text_numbers">#000000</color>
+    <color name="btn_text_functions">#AA6600</color>
+    <color name="btn_text_functions_alt">#CC2211</color>
+
+    <color name="tv_background">#000000</color>
+
+    <color name="tv_expression_text">#FFFFFF</color>
+    <color name="tv_result_text">#FF8800</color>
+</resources>
