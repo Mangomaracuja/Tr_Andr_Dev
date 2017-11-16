@@ -19,9 +19,7 @@ public class ExpressionManager {
     private ExpressionManager() {
         expression = new StringBuilder();
         result = new StringBuilder();
-        comma = false;
-        operator = true;
-        brackets = 0;
+        reset();
     }
 
     public static ExpressionManager getInstance() {
@@ -197,13 +195,21 @@ public class ExpressionManager {
         if (result.length() != 0) deleteAll();
         if (expression.length() != 0) {
             if (isLastOperator()) operator = false;
+            if (isLastBracket()) brackets --;
             expression.deleteCharAt(expression.length() - 1);
         }
     }
 
     public void deleteAll() {
+        reset();
+    }
+
+    private void reset() {
         expression.setLength(0);
         result.setLength(0);
+        comma = false;
+        operator = true;
+        brackets = 0;
     }
 
     private String doubleFormat(double d) {
