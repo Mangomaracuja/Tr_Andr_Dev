@@ -45,8 +45,13 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_calculate: em.calculate(); break;
             case R.id.btn_delete: em.delete(); break;
             case R.id.btn_delete_all: em.deleteAll(); break;
+            case R.id.btn_more: handleMore(); break;
         }
         tv_expression.setText(em.toExpressionString());
         tv_result.setText(em.toResultString());
+    }
+
+    private void handleMore(){
+
     }
 }

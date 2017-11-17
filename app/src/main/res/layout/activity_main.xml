@@ -75,6 +75,16 @@
                     android:theme="@style/btn.functions.normal" />
 
                 <Button
+                    android:id="@+id/btn_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="handleButton"
+                    android:text="@string/btn_more"
+                    android:background="@drawable/btn_top_functions"
+                    android:theme="@style/btn.functions.normal"/>
+
+                <Button
                     android:id="@+id/btn_delete"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

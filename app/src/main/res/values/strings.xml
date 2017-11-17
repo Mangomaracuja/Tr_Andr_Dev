@@ -11,6 +11,7 @@
     <string name="btn_bracket_open">(</string>
     <string name="btn_bracket_close">)</string>
     <string name="btn_comma">,</string>
+    <string name="btn_more">...</string>
     <string name="btn_zero">0</string>
     <string name="btn_one">1</string>
     <string name="btn_two">2</string>
